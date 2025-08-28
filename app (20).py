@@ -152,7 +152,7 @@ add_bam_footer_with_links()
 
 
 ##
-st.sidebar.image("/content/logo ALBARID.png", width=300)
+st.sidebar.image("logo ALBARID.png", width=300)
 #
 # Configuration de la page
 st.set_page_config(page_title="Tableau de Bord d'Analyse des BDT", layout="wide")
@@ -1293,4 +1293,5 @@ with tab3:
 
 # Message initial
 if st.session_state.step == 0:
+
     st.info("Veuillez télécharger un fichier Excel et suivre les étapes du processus.")
