@@ -12,7 +12,7 @@ import re
 ###
 
 # Configuration d'accès
-PASSWORD = "2025"  # Changez ce mot de passe
+PASSWORD = "1975"  # Changez ce mot de passe
 
 # Vérification de l'authentification
 if "authenticated" not in st.session_state:
@@ -1294,4 +1294,5 @@ with tab3:
 if st.session_state.step == 0:
 
     st.info("Veuillez télécharger un fichier Excel et suivre les étapes du processus.")
+
 
