@@ -772,7 +772,6 @@ with tab3:
                     fig_flux = px.bar(flux_data, 
                                     x='Type', 
                                     y='Montant',
-                                    color='Couleur',
                                     title=f"Flux financiers - {selected_month_str}",
                                     labels={'Montant': 'Montant (MAD)', 'Type': ''},
                                     text=[format_amount(x) for x in flux_data['Montant']])
@@ -1295,3 +1294,4 @@ with tab3:
 if st.session_state.step == 0:
 
     st.info("Veuillez télécharger un fichier Excel et suivre les étapes du processus.")
+
